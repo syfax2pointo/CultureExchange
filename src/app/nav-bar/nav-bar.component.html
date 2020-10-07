@@ -1,0 +1,67 @@
+<div id="google_translate_element"></div>
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      },
+      "google_translate_element"
+    );
+  }
+</script>
+
+<script
+  type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+></script>
+
+<div class="nav-section">
+  <ul class="nav-links">
+    <li>
+      <a href="home" class="logo"
+        ><img src="../../assets/mainLogo.png" alt="logo" height="90"
+      /></a>
+    </li>
+    <li><a href="home">Home</a></li>
+
+    <li><a href="culture">Culture</a></li>
+    <li><a href="holidays">Holidays</a></li>
+    <li><a href="community">Community</a></li>
+    
+    <form (change) ="onSubmit()">
+      <div id="myDropdown" class="dropdown-content">
+        <select [(ngModel)]="countryName" name="countryName" >
+        <option [ngValue]="undefined" selected>Select Country</option>
+        <option *ngFor="let country of countryList" value="{{ country.name }}" [routerLink]="'/country'" fragment="country.name">{{country.name}}</option>
+        </select>
+      </div>
+    </form>
+  </ul>
+
+  <div class="mobile__menu">
+    <a href="home" class="logo"
+      ><img src="../../assets/mainLogo.png" alt="logo" height="60"
+    /></a>
+    <input id="toggle" type="checkbox" />
+    <label class="hamburger" for="toggle">
+      <div class="hamburger__top"></div>
+      <div class="hamburger__meat"></div>
+      <div class="hamburger__bottom"></div>
+    </label>
+    <div class="hamburger__nav">
+      <div class="hamburger__nav--wrapper">
+        <nav class="hamburger__nav--items">
+
+          <li><a href="home">Home</a></li>
+          <li><a href="country">Countries</a></li>
+
+          <li><a href="culture">Cultures</a></li>
+          <li><a href="holidays">Holidays</a></li>
+          <li><a href="community">Community</a></li>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>

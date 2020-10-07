@@ -1,0 +1,14 @@
+<!-- FUNCTIONALITY: The end user is redirected to the correct spot on this page to access info on selected country -->
+<div class="description" *ngFor="let country of countryList" [attr.id]='country.name'>
+  <div class="h1"><h1>{{country.name}}</h1></div>
+  <button class="learn">
+    <a [routerLink]="['/culture']" fragment="{{ country.name }}"
+      >Learn {{ country.name }} History</a
+    >
+  </button>
+  <button class="share">
+    <a routerLink="/holidays">Share {{ country.name }} Holidays</a>
+  </button>
+  <img class="image" src="{{ country.image }}" width="1000px" /><br />
+  <a class="backtoTop" [routerLink]="country">Back to Top Page</a>
+</div>

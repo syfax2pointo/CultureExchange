@@ -1,0 +1,56 @@
+<main>
+  <div class="h1">WELCOME TO CHAT</div>
+<div class="chat-container">
+
+  <!-- Header -->
+  <div class="chat-header">
+    <h1>the culture Xchange chat</h1>
+    <button class="btn1"><a routerLink="/">Leave Room</a><i class="fa fa-sign-out" aria-hidden="true"></i></button>
+  </div>
+
+  <!-- Messages -->
+  <div class="chat-main">
+    <div class="chat-messages" #scrollframe>
+      <ul class="message" *ngFor="let message of messageList" #item>
+        <!-- if admin -->
+        <li *ngIf="message.from.type === 'admin'" class="chat-message-admin">
+          <p class="text">{{ message.content }}</p>
+        </li>
+        <!-- if visitor -->
+        <li *ngIf="message.from.type === 'visitor'" class="chat-message visitor">
+          <p class="meta" *ngIf="message.action === undefined">{{ message.from.name }}<span> {{ message.time }}</span>
+          </p>
+          <p class="text">{{ message.content }}</p>
+          <p [ngClass]="[message.translatedcontent != undefined ? 'translatedtext' : 'translatedtext-hidden']">
+            <br />{{ message.translatedcontent }}</p>
+        </li>
+        <!-- if guide -->
+        <li *ngIf="message.from.type === 'guide'" class="chat-message guide">
+          <p class="meta" *ngIf="message.action === undefined"><span>{{ message.time }}</span> {{ message.from.name }}
+          </p>
+          <p class="text">{{ message.content }}</p>
+          <p [ngClass]="[message.translatedcontent != undefined ? 'translatedtext' : 'translatedtext-hidden']">
+            <br />{{ message.translatedcontent }}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Send Message Form -->
+  <div class="chat-form-container">
+    <form id="chat-form" (ngSubmit)="sendMessage()">
+      <input id="msg" [(ngModel)]="txtMessage" name="txtMessage" type="text" placeholder="Enter Message" required
+        autocomplete="off" />
+      <button class="btn2"><i class="fa fa-paper-plane"></i> Send</button>
+    </form>
+  </div>
+
+</div>
+<!-- the foot section that is duplicated on every page -->
+<footer>
+  <img src="../../assets/mainLogo.png" alt="logo" width="100px">
+  <a href="community">Jump to top</a>
+    <p>© 2020 DIVERSIFIED.CO</p>
+    
+</footer>
+</main>

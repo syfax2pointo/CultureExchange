@@ -1,0 +1,37 @@
+<main>
+  <div class="h1">WELCOME TO CHAT</div>
+<div class="join-container">
+
+
+  <header class="join-header">
+    <h1>the culture Xchange chat</h1>
+  </header>
+
+  <div class="join-form">
+    <form (ngSubmit)="onSubmit()">
+      <!-- name -->
+      <div class="form-control">
+        <label for="username">USERNAME</label>
+        <input id="username" [(ngModel)]="username" name="username" type="text" placeholder="Enter username..."
+          required />
+      </div>
+      <!-- language -->
+      <div class="form-control">
+        <label for="language">LANGUAGE</label>
+        <select [(ngModel)]="language" name="language" id="language">
+          <option *ngFor="let country of countryList" value="{{ country.languagecode }}">{{ country.languagename }}
+          </option>
+        </select>
+      </div>
+      <!-- Country -->
+      <div [ngClass]="[roomToken != undefined ? 'form-control-guide' : '']">
+        <label for="country">COUNTRY</label>
+        <select [(ngModel)]="country" name="country" id="country">
+          <option *ngFor="let country of countryList" value="{{ country.name }}">{{ country.name }}</option>
+        </select>
+      </div>
+      <button class="btn" type="submit">Join Chat</button>
+    </form>
+  </div>
+</div>
+</main>

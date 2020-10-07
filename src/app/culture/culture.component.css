@@ -1,0 +1,133 @@
+header {
+  background: url("../../assets/paris.jpg") no-repeat;
+  background-size: cover;
+  height: 85vh;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.title {
+  color: #1bb8b5;
+  text-align: center;
+  margin-top: 20%;
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.intro {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  background: rgb(23, 190, 187);
+  background: linear-gradient(
+    149deg,
+    rgba(23, 190, 187, 1) 25%,
+    rgba(127, 139, 138, 1) 60%
+  );
+}
+.intro .span {
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+.explore {
+  background-color: white;
+  margin-bottom: 20px;
+}
+.wrapper {
+  position: relative;
+  height: 250px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: white;
+}
+.countryList {
+  margin-top: 20px;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+.countryList a {
+  text-decoration: none;
+  border: 2px;
+  background-color: #17bebb;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.countryList a:hover {
+  color: #17bebb;
+  background-color: #ffc914;
+  text-decoration: none;
+}
+
+.description {
+  color: rgb(71, 71, 73);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+footer {
+  background-color: #2e282a;
+  height: 100px;
+  position: relative;
+}
+footer a {
+  color: white;
+  position: absolute;
+  left: 45%;
+}
+footer p {
+  position: absolute;
+  color: white;
+  font-size: 10px;
+  bottom: 2%;
+  left: 5%;
+}
+
+@media screen and (max-width: 688px) {
+  header {
+    height: 30vh;
+  }
+  .title {
+    margin-top: 15%;
+    font-size: 35px;
+  }
+
+  .intro {
+    height: 100vh;
+  }
+
+  .intro .span {
+    font-size: 17px;
+  }
+  .countryList {
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    height: 50vh;
+  }
+  .intro {
+    height: 35vh;
+  }
+}

@@ -1,0 +1,28 @@
+<input type="text" id="myInput" (keyup)="myFunction($event.target.value)" placeholder="Search for names.." />
+
+<input type="button" id="getDay" (click)="getDays($event.target.value)" value="Sort by date" />
+
+<body>
+  <table id="myTable">
+    <tr class="header">
+      <th>Date of Celebration</th>
+      <th>Country of Celebration</th>
+      <th>Holiday name</th>
+      <th>Holiday description</th>
+    </tr>
+    <tr *ngFor="let holidaysTitle of holidays">
+      <td>
+        {{ holidaysTitle.date.iso | date }}
+      </td>
+      <td>{{ holidaysTitle.country.name }}</td>
+      <td>{{ holidaysTitle.name }}</td>
+      <td>{{ holidaysTitle.description }}</td>
+    </tr>
+  </table>
+  <footer>
+    <img src="../../assets/mainLogo.png" alt="logo" width="150px">
+    <a href="holidays">Jump to top</a>
+      <p>© 2020 DIVERSIFIED.CO</p>
+      
+  </footer>
+</body>

@@ -1,0 +1,137 @@
+[
+    {
+        "id": 1,
+        "name": "Australia",
+        "code": "AU",
+        "languagecode": "en",
+        "languagename": "English",
+        "description": "Indigenous Australian first emigrated onto the continent more than 40000 years ago while European influences dint start to show until the 17th century. With the colonization of Southeast Asia by European powers Australia northern reaches were constantly visited by Dutch traders. However the rest of Australia went largely untouched until 1770 when British explorer Captain James Cook navigated Australia east coast naming it New South Wales under the British crown. Eighteen years after James Cooks discovery Captain Arthur Phillip led a fleet in 1788 to begin a new British crown colony in New South Wales. He landed at Sydney Cove and immediately began developing the area. Eventually expeditions of the Australian coastline led to more colonies in the following years including Tasmania in 1825 South Australia in 1836 Victoria in 1851 and Queensland in 1859 . Despite popular belief Australia population grew through the arrival of free settlers, not relocated British convicts. A population explosion occurred during the gold rush of the 1850s and by the turn of the century the separate colonies voted to become a British dominion and Australia officially became a unified nation on January 1 1901 . After federation Australia economy thrived with its abundance of natural resources but was limited by lack of manpower. Following WWII in which Australia fought on several fronts a large influx of Europeans immigrated into the country. This was the beginning of Australia modern wave of migrants which also included Asians and Africans over the next 50 years. Visitors can find out more about Australia short yet fascinating history at Sydney Australian Museum and the Australian National Maritime Museum. Plenty of colonial remnants are found throughout Australia including the spectacular Port Arthur Historical Site which is a well-preserved penal settlement complete with eerie convict quarters.",
+        "image": "../../assets/AustraliaFlag.png"
+    },
+    {
+        "id": 2,
+        "name": "Brazil",
+        "code": "BR",
+        "languagecode": "pt",
+        "languagename": "Portuguese",
+        "description": "The cultures of the indigenous Indians Africans and Portuguese have together formed the modern Brazilian way of life. The Portuguese culture is by far the dominant of these influences from it Brazilians acquired their language their main religion and most of their customs. The Indian population is now statistically small but Tupí-Guaraní the language of many Brazilian Indians continues to strongly influence the Brazilian Portuguese language other Indian contributions to Brazilian culture are most apparent in the Amazon basin. African influences on the Brazilian way of life are strongest along the coast between the Northeast and Rio de Janeiro they include traditional foods religions and popular music and dance especially the samba. Commercial and cultural imports from Europe and North America have often competed with—and influenced—Brazilians own cultural output, and critics have argued that the nations cultural identity is suffering as a result. Despite numerous social and economic challenges Brazilians continue to be exuberant and creative in their celebrations and art forms.",
+        "image": "../../assets/BrazilFlag.png"
+    },
+    {
+        "id": 3,
+        "name": "China",
+        "code": "CN",
+        "languagecode": "zh",
+        "languagename": "Chinese",
+        "description": "Present day Chinese culture is an amalgamation of old world traditions and a westernized lifestyle. The two co-exist like the traditional Yin Yang formula of balance. This can be seen in the juxtaposition of towering skyscrapers with heritage buildings the contrast of western fashion with the traditional Chinese Qipao dress the peoples paradoxical affinity for both dim sums and McDonalds. Ancient Chinese Culture is older than 5000 years. Chinese cultural history has enormous diversity and variety. The sophisticated Chinese civilization was rich in the Arts and Sciences elaborate Painting and Printing techniques and delicate pottery and sculpture. Chinese architectural traditions were much respected all over the world. Chinese language and literature philosophy and politics are still reckoned as a strong influence. Chinese culture managed to retain its unique identity till the advent of Western culture in the mid-19th century. Chinese Religion Philosophy and Politics - Confucianism Taoism and Buddhism have left a collective and lasting impression on Chinese culture and tradition. Confucianism propagated Ren which is love and Li which is rituals signifying respect for society and social hierarchy. Taoism advocated the controversial philosophy of inaction. Buddhism emphasized on the need to attain self- emancipation through good deeds.",
+        "image": "../../assets/ChinaFlag.png"
+    },
+    {
+        "id": 4,
+        "name": "Egypt",
+        "code": "EG",
+        "languagecode": "ar",
+        "languagename": "Arabic",
+        "description": "Ancient Egyptian culture flourished between c. 5500 BCE with the rise of technology and 30 BCE with the death of Cleopatra VII the last Ptolemaic ruler of Egypt. It is famous today for the great monuments which celebrated the triumphs of the rulers and honored the gods of the land. The culture is often misunderstood as having been obsessed with death but had this been so it is unlikely it would have made the significant impression it did on other ancient cultures such as Greece and Rome. This passion for life imbued in the ancient Egyptians a great love for their land as it was thought that there could be no better place on earth in which to enjoy existence. While the lower classes in Egypt as elsewhere subsisted on much less than the more affluent they still seem to have appreciated life in the same way as the wealthier citizens. This is exemplified in the concept of gratitude and the ritual known as The Five Gifts of Hathor in which the poor laborers were encouraged to regard the fingers of their left hand the hand they reached with daily to harvest field crops and to consider the five things they were most grateful for in their lives. Ingratitude was considered a gateway sin as it led to all other types of negative thinking and resultant behavior. Once one felt ungrateful it was observed, one then was apt to indulge oneself further in bad behavior. The Cult of Hathor was very popular in Egypt among all classes and epitomizes the prime importance of gratitude in Egyptian culture.",
+        "image": "../../assets/EgyptFlag.png"
+    },
+    {
+        "id": 5,
+        "name": "France",
+        "code": "FR",
+        "languagecode": "fr",
+        "languagename": "French",
+        "description": "The culture of France has been influenced over the centuries by the countrys turbulent history its varied topography, and its long-standing contacts with neighboring countries as well as its colonies. In the 19th century Paris became the cultural hub of the world for its decorative Art Nouveau style and for several centuries before that its upscale furniture makers had dominated Europes elite customer base with extravaganzas of inland woods and gilded ormolu decoration. Until the 18th century French culture as an all-embracing concept didnt exist, as each region and baronial area had its own distinct local customs and traditions. Even nowadays the nation is a mass of multiple ethnicities and regional diversities. Social class is still important as are the regional aspects of cuisine dialect and language and tradition. However the French as a whole are very proud of their national identity. Family values form a major part of culture in France and responsibility to your namesake comes before all others in providing financial and emotional support. Romantic though they are the French have a practical view of marriage and its survival as an institution in the modern world. Parents take their roles seriously and there are fewer working mothers than in the rest of Europe. Cultural events such as opera ballet classical concerts theater performances and other traditional events are valued highly as is the French natural ability for art.",
+        "image": "../../assets/FranceFlag.png"
+    },
+    {
+        "id": 6,
+        "name": "Germany",
+        "code": "DE",
+        "languagecode": "de",
+        "languagename": "German",
+        "description": "Germany is at the center of Europe not only geographically but also in terms of politics and economics. The country is Europes second most populous after Russia with more than 80 million people. The German economy is the largest on the continent and the fifth largest in the world. While German exerts its influence on the countries that border it — Austria Belgium Czech Republic Denmark France Luxembourg Netherlands, Switzerland and Poland — all of these cultures have in varying degrees had a hand in shaping todays Germany. Unsurprisingly the official language of the country is German. More than 95 percent of the population speaks German as their first language according. Other languages spoken include Serbian in eastern Germany North and West Frisian spoken around the Rhine estuary and Danish primarily spoken in the area along the Danish border. Romani which is an indigenous language Turkish and Kurdish are also spoken.",
+        "image": "../../assets/GermanyFlag.png"
+    },
+    {
+        "id": 7,
+        "name": "India",
+        "code": "IN",
+        "languagecode": "hi",
+        "languagename": "Hindi",
+        "description": "India is a diverse nation with a huge population made up of people of different castes and religions. Hindus are dominant but there are also many Sikhs Muslims Christians and followers of Jainism all of which have literary and artistic traditions and religious festivals that contribute to the vibrancy of daily life. Indians are family oriented and largely conservative people with a scholarly and friendly nature. Thousands of years of urbanized living have allowed literature art architecture and philosophy to flourish which can be seen everywhere particularly in the regionally varied buildings and cuisine. The cycles of nature particularly of the might Ganges River play a huge part in the national consciousness of India which is a busy noisy colorful diverse and spiritually aware place.",
+        "image": "../../assets/IndiaFlag.png"
+    },
+    {
+        "id": 8,
+        "name": "Italy",
+        "code": "IT",
+        "languagecode": "it",
+        "languagename": "Italian",
+        "description": "The rich culture of Italy formed the heart of the Western World from the days of Imperial Rome up to the end of the 16th century. The Roman Empire itself the emergence of the Roman Catholic Church the cultural flowering of the Renaissance era and the birth of Humanism all exerted strong influence across the globe. Nowadays Italian culture is best represented in art music fashion and cuisine all existing in harmony with great icons of the past many of which are now UNESCO World Heritage sites. Italy is home to more than 50% of the world’s art treasures and the works of its great composers over the ages are still much-loved by the majority of locals. Music whether classical or modern is an integral part of life unsurprisingly in a country which invented the musical stave and the piano and opera have given birth to many of the worlds greatest composers conductors and singers. In modern times Italy is credited with developing progressive rock italo-disco and experimental rock. Theater performances have a long heritage here based on the tradition of traveling players and their Canovaccio comedies. Specific regions have folk music traditions for example the famous Neapolitan dialect songs made famous in the early to mid 19th century by Enrico Caruso and Mario Lanza. Visitors to Naples will still hear ancient classics such as Torno al Suriento floating out from streetside bars and eateries.",
+        "image": "../../assets/ItalyFlag.png"
+    },
+    {
+        "id": 9,
+        "name": "Japan",
+        "code": "JP",
+        "languagecode": "ja",
+        "languagename": "Japanese",
+        "description": "Present-day Japanese culture is a fascinating mix of tradition and modernity as is observed in all aspects of everyday life. One unchanging concept is the loss of face an idea which embodies personal dignity and peer status. Any conflict criticism insult or request which cannot be fulfilled causes loss of face and must be avoided at all costs. In society as a whole, harmony is the premier philosophy essential in both family and business. Children are taught to value peace above their own needs and are trained to work together rather than to aspire to be independent. The resulting group-dependency relies heavily on body language in communication as words can have many underlying meanings. A passive facial expression is recommended for visitors with eye contact discouraged as it invades the Japanese sense of privacy invaluable in this crowded country. The hierarchy of status and age is important with every person having his or her own place within the group. Formal greetings are standard your name-san and bowing the head is a sign of respect although unwrapping a gift in the givers presence is not. If you are invited to a Japanese home for dinner theres a minefield of protocols to follow beginning with the removal of your shoes before entering. Arrive on time dress appropriately and conservatively and wait to be told where to sit. Do not point or pierce your food with your chopsticks and try whatever is offered. If you do not want second or third helpings leave a little food in your bowl or drink in your glass as it is good manners to never leave the guest with an empty plate. Finally conversation while eating is not polite as your hosts prefer to savor the food.",
+        "image": "../../assets/JapanFlag.png"
+    },
+    {
+        "id": 10,
+        "name": "Mexico",
+        "code": "MX",
+        "languagecode": "es",
+        "languagename": "Spanish",
+        "description": "A significant part of Mexican culture since the pre-Colombian era literature has thrived in this diverse nation. From the famous Mesoamerican poet Nezahualcoyotl to the colonial scribes of Juan Ruiz de Alacon and Juana Ines de la Cruz and later Jose Vasconcelos the country outstanding literature paints a picture of this colorful country past. Music is at the center of Mexican society with a wide range of genres found throughout the area. From the world-famous Mariachi bands present at all special occasions to some of the region top DJs performing at lively venues and clubs it is difficult to escape pulsating beats in this part of the world. Art has played a major part in Mexican history since the sculptures and great monuments of the early civilizations and tends to be connected to religion and worship. Indigenous and Spanish art heavily influenced the Mexican muralist and social realism movements of the 20th century. Mexico has long been recognized for its high-quality cinema productions stretching back to the post-WWII days when the country movie industry was comparable with Hollywood. In recent years Mexican film has once again become prominent on the world stage raising international interest once more.",
+        "image": "../../assets/MexicoFlag.png"
+    },
+    {
+        "id": 11,
+        "name": "Nigeria",
+        "code": "CA",
+        "languagecode": "yo",
+        "languagename": "Yoruba",
+        "description": "With such a huge population and rich history Nigeria is a prominent nation of Africa. In modern culture, Nigerians are revered throughout Africa and the world. Femi Kuti has produced 15 albums since 1989 that have had global success. The pulsating and mesmerizing beats with somber melodies sang and played over the top was a style of music pioneered by his father Fela Kuti. This music is known as Afrobeat and influences many modern dance music styles. As a result of his musical success and social commentary Femi Kuti has been dubbed the Bob Marley of Africa. Nigeria has a US$250-million movie industry known as Nollywood. The industry grew to prominence quickly in the 1990s and the movies are exported all over Africa mainly for home viewing. Nigeria has also had a growing success on the international stage with sport. Soccer is the national sport of Nigeria and their national team is one of the best in Africa. Many of its players work abroad, earning millions in the lucrative European leagues. The national team won the regional African Cup in 1980 and 1994 and progressed relatively far in the last FIFA world cup in 2010.",
+        "image": "../../assets/NigeriaFla.png"
+    },
+    {
+        "id": 12,
+        "name": "Philippines",
+        "code": "PH",
+        "languagecode": "fil",
+        "languagename": "Filipino",
+        "description": "Despite a string of largely unsympathetic rulers the turbulent history of the Phillipines has nonetheless managed to produce a friendly resilient family-oriented deeply religious and artistic population most of whom are indigenous Spanish or of mixed heritage. The culture of the Philippines comprises a blend of traditional Filipino and Spanish Catholic traditions with influences from America and other parts of Asia. The Filipinos are family oriented and often religious with an appreciation for art fashion music and food. Filipinos are also hospitable people who love to have a good time. This often includes getting together to sing dance and eat. The annual calendar is packed with festivals many of which combine costumes and rituals from the nation pre-Christian past with the Catholic beliefs and ideology of present day.",
+        "image": "../../assets/PhilippinesFlag.png"
+    },
+    {
+        "id": 13,
+        "name": "Russia",
+        "code": "RU",
+        "languagecode": "ru",
+        "languagename": "Russian",
+        "description": "The culture of Russia is hard to define due to its massive size and plethora of ethnicities. However certain aspects such as family loyalty and dependency immense pride in the land and its traditions and endurance are common traits. The collective spirit developed by centuries of living in small agricultural communities and during the Soviet era is strong as is the determination of the Russian people to better their lives by any means possible. Russians love music the arts literature philosophy and theater as well as eating and drinking and could be described as quintessential party people. Highly talented in cultural pursuits they are also very superstitious with long lists of rituals based on folklore and magical beliefs still a part of everyday life. Russian folk songs and dances are part of most celebrations and traditional instruments such as the balalaika and gypsy guitar are still popular today.",
+        "image": "../../assets/RussiaFlag.png"
+    },
+    {
+        "id": 14,
+        "name": "South Korea",
+        "code": "KR",
+        "languagecode": "ko",
+        "languagename": "Korean",
+        "description": "The Korean culture is vibrant in color and steeped in history. Temples and palaces such as the Gyeongbok Palace and traditional dresses like the formal hanbok showcase ancient traditions which you can see at the National Museum of Korea in Seoul. Changdeokgung Palace is also a great place to see the architectural heritage of Korea. In Asia K-pop or Korean pop has also become extremely popular. Known for their dynamically choreographed dance routines and beautiful stars K-pop groups have obtained serious celebrity status. Seoul is a great place to buy CDs DVDs and goods from groups like Kara Super Junior and Shinee. Korean television series have also become well known around the world which are dubbed into various languages and broadcast around the globe. Whether soap opera or historical drama these stories showcase life in Korea.",
+        "image": "../../assets/KoreaFlag.png"
+    },
+    {
+        "id": 15,
+        "name": "United States",
+        "code": "US",
+        "languagecode": "en",
+        "languagename": "English",
+        "description": "American culture is often described as a consumer culture as a result of the economic growth following 1945 and the expansion of creations like shopping malls. However, the modern US is also shaped by its multiculturalism which began in the late 1800s when Irish and European migrants flocked to the country in the thousands. Today society is respectful of a number of cuisines languages festivals and faiths that visitors can experience when traveling across the United States. Despite its historical suppression the Native American culture is still alive and thriving throughout the country. This is evident in the far-flung states of Alaska and Hawaii. In addition the US also boasts an incredibly diverse regional culture. For instance visitors can see a significantly different way of life from gaudy Southern California to preppy New England and the conservative Mississippi basin.",
+        "image": "../../assets/flag-Stars-and-Stripes-July-4-1818.jpg"
+    }
+]

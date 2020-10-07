@@ -1,0 +1,40 @@
+/* Country name */
+.h1 {
+  text-align: center;
+}
+/* Learn Country: History */
+.learn {
+  background-color: rgba(118, 176, 65, 0.671);
+  text-align: center;
+  height: 75px;
+  width: 100%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  
+}
+
+/* Learn Country: Holidays */
+.share {
+  background-color: rgba(118, 176, 65, 0.671);
+  text-align: center;
+  height: 75px;
+  width: 100%;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* Flag photo */
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.backtoTop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-decoration: none;
+}

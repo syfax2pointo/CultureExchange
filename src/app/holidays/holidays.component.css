@@ -1,0 +1,78 @@
+#myTable {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#myTable td,
+#myTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#myTable tr:nth-child(even) {
+  background-color: rgba(118, 176, 65, 0.2);
+}
+
+#myTable tr:hover {
+  background-color: #ddd;
+}
+
+#myTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #17bebb;
+  color: rgba(255, 255, 255, 0.671);
+}
+
+#myTable {
+  border-collapse: collapse;
+  /* Collapse borders */
+  width: 100%;
+  /* Full-width  */
+  border: 1px solid #ddd;
+  /* Add a grey border  */
+  font-size: 18px;
+  /* Increase font-size */
+}
+
+#myTable th,
+#myTable td {
+  text-align: left;
+  /* Left-align text  */
+  padding: 12px;
+  /* Add padding  */
+}
+
+#myTable tr {
+  /* Add a bottom border to all table rows */
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+  /* Add a grey background color to the table header and on hover */
+  background-color: #f1f1f1;
+}
+
+/* Footer section */
+
+footer {
+  background-color: #2e282a;
+  height: 100px;
+  position: relative;
+}
+footer a{
+  color: white;
+  position: absolute;
+  left: 45%;
+}
+footer p {
+  position: absolute;
+  color: white;
+  font-size: 10px;
+  bottom: 2%;
+  position: absolute;
+  margin-left: 45%;
+}
